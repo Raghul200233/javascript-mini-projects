@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins";
+    background-color: whitesmoke;
+}
+.h1{
+    font-weight: 500 bold;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    
+    background: linear-gradient(to top, #649173, #dbd5a4);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius:20px ;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    
+    border: 0;
+
+    outline: none;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button img{
+    width: 20px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.wind ,.hum{
+    display: flex;
+    
+    align-items: space-evenly;
+
+}
+.wind img{
+    width: 50px;
+    padding: 10px;
+}
+.hum img{
+    width: 50px;
+    padding: 10px;
+}
+
+.hum h2{
+    
+    padding: 10px;
+    margin-top: 8px;
+    text-align: center;
+}
+.wind h2{
+    
+    padding: 10px;
+    margin-top: 8px;
+    text-align: center;
+}
+.abb{
+    display: flex;
+    justify-content: space-between;
+
+}
+.abb h2:last-child{
+    margin-right: 50px;
+
+}
+.abb h2:first-child{
+    margin-left: 20px;
+
+}
+.container{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 11px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+
+}
